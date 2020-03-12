@@ -21,14 +21,14 @@ This repo will be home to an array of side projects written in C++ to assist wit
 - minesweeper
 - guess the number (higher/lower)
 
-1. #Guess the number
+# 1. Guess the number
 
 This is a text based console app. The application will randomly pick a number between 1 and 20 then ask the user to guess.
 After an incorrect guess the computer replies "higher" or "lower". If the guess is within 1 the computer will alos reply "very close"
 
 The game ends when the user guesses the correct number. User is then prompted to enter "y" or "n" to play again or end the session.
 
-##Pseudo Code
+## Pseudo Code
   1. Computer selects random number
   2. Computer prompts user to guess;
   3. Evaluate if guess is same as number [yes: GOTO 6][no: GOTO 4]
